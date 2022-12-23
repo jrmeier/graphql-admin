@@ -6,7 +6,7 @@ module.exports = function(app) {
     createProxyMiddleware({
        target: BASE_URL,
        headers: {
-        'X-API-KEY': 'd41d8cd98f00b204e9800998ecf8427e'
+        'X-API-KEY': ''
        },
        changeOrigin: true,
        pathRewrite: {
